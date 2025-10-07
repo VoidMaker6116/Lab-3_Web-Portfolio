@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul class="navbar">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                <li><a href="{{ url_for('works') }}">Works</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="content contact-page">
+            <h1>This is My Contact Page</h1>
+            <p class="contact-subtitle">aldred.custodio.11@gmai.com</p>
+            <p class="contact-email adjustable lower-2">Sample linkedin account</p>
+            <p class="contact-email adjustable lower-2">Github Account: VoidMaker6116</p>
+            <p class="contact-email adjustable lower-2">Email: aldred.custodio.11@gmail.com</p>
+            <p class="contact-email adjustable lower-2">Facebook:
+            <a href="https://www.facebook.com/ccustodio.dred" target="_blank">Aldred Custodio</a>
+            
+        </div>
+    </div>
+</body>
+</html>
